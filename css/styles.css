@@ -8,10 +8,19 @@
  */
 /* колір фону кнопки #F5F4FA; */
 /* колір фону підвалу #2F303A; */
-
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --accent: #2196f3;
+  --white-text-color: #ffffff;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --logo-text-color: #000000;
+}
 body {
-  color: #212121;
+  color: var(--primary-text-color);
   background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -21,69 +30,110 @@ body {
 /* Logo */
 
 .logo {
-  color: #2196f3;
+  color: var(--accent);
+  font-family: 'Raleway';
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .logo .logo-text {
-  color: #000000;
+  color: var(--logo-text-color);
 }
 
 /*  header */
 
 .site-nav .link {
-  color: #212121;
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent);
+}
+
+.site-nav .link.current {
+  color: var(--accent);
 }
 
 .contact-nav .link {
-  color: #212121;
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contact-nav .tel {
-  color: #757575;
+  color: var(--text-color);
 }
 
 .contact-nav .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent);
 }
 
 /* Hero */
 
+.hero h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
 .hero .text {
-  color: #757575;
+  color: var(--text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
 }
 
 .button {
-  color: #212121;
+    font-family: inherit;
+  color: var(--primary-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .button:hover,
 .button:focus {
-  color: #ffffff;
+  color: var(--white-text-color);
   background-color: #2196f3;
 }
 
 /* footer */
 .footer {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-text-color);
   background-color: #2f303a;
 }
 
 .footer .link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .footer .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent);
 }
 
 .footer .text {
-  color: #ffffff;
+  color: var(--white-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
