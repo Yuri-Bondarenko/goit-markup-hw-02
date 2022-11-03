@@ -25,6 +25,7 @@ body {
 
 .list {
   list-style: none;
+  text-decoration: none;
 }
 
 /* Logo */
@@ -97,7 +98,7 @@ body {
 }
 
 .button {
-    font-family: inherit;
+  font-family: inherit;
   color: var(--primary-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
