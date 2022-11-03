@@ -2,23 +2,88 @@
 /* вторинний колір тексту #757575 */
 /* акцент  #2196F3 */
 /*білий колір тексту  #FFFFFF */
-
-
-
-
-
-
-
-
+/* колір тексту підвалу rgba(255, 255, 255, 0.6);
+ */
+/* основний колір #FFFFFF;
+ */
+/* колір фону кнопки #F5F4FA; */
+/* колір фону підвалу #2F303A; */
 
 body {
-    color: #212121;
+  color: #212121;
+  background-color: #ffffff;
 }
 
-.logo{
-    color: #2196F3;
-}
-.logo .logo-text{
-   color: #000000;
+.list {
+  list-style: none;
 }
 
+/* Logo */
+
+.logo {
+  color: #2196f3;
+}
+
+.logo .logo-text {
+  color: #000000;
+}
+
+/*  header */
+
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.contact-nav .link {
+  color: #212121;
+}
+
+.contact-nav .tel {
+  color: #757575;
+}
+
+.contact-nav .link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+/* Hero */
+
+.hero .text {
+  color: #757575;
+}
+
+.button {
+  color: #212121;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* footer */
+.footer {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
+}
+
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.footer .text {
+  color: #ffffff;
+}
