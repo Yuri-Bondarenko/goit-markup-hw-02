@@ -118,7 +118,6 @@ body {
 
 .section .text {
   color: var(--text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -133,7 +132,6 @@ body {
 
 .work .text {
   color: var(--text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
 }
@@ -149,7 +147,6 @@ body {
 
 .content .text {
   color: var(--text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
 }
@@ -178,7 +175,6 @@ body {
 
 .footer .link {
   color: var(--footer-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -190,7 +186,6 @@ body {
 
 .footer .text {
   color: var(--white-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
