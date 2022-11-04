@@ -8,6 +8,7 @@
  */
 /* колір фону кнопки #F5F4FA; */
 /* колір фону підвалу #2F303A; */
+/* вторинний колір #2F303A; */
 :root {
   --primary-text-color: #212121;
   --text-color: #757575;
@@ -33,7 +34,6 @@ body {
 .logo {
   color: var(--accent);
   font-family: 'Raleway';
-
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -47,7 +47,6 @@ body {
 
 .site-nav .link {
   color: var(--primary-text-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -64,7 +63,6 @@ body {
 
 .contact-nav .link {
   color: var(--primary-text-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -82,16 +80,74 @@ body {
 
 /* Hero */
 
-.hero h2 {
+.hero {
+  background-color: #2f303a;
+}
+
+.hero .title {
+  color: var(--white-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.hero .button {
+  color: var(--white-text-color);
+  background-color: var(--accent);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+
+/* Section */
+
+.section h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.section .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.section .text {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Work */
+
+.work h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.work .text {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* Content */
+
+.content h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.hero .text {
+.content .text {
   color: var(--text-color);
-
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
@@ -133,7 +189,6 @@ body {
 
 .footer .text {
   color: var(--white-text-color);
-
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
