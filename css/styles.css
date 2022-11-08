@@ -30,7 +30,7 @@ body {
 
 /* Logo */
 
-.logo {
+.header-logo {
   color: var(--accent);
   font-family: 'Raleway';
   font-weight: 700;
@@ -39,39 +39,34 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo .logo-text {
+.header .text {
   color: var(--logo-text-color);
 }
 
 /*  header */
 
-.site-nav .link {
+.header-link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.header .link:hover,
+.link:focus {
   color: var(--accent);
 }
 
-.site-nav .link.current {
+.header .current {
   color: var(--accent);
 }
 
-.contact-nav .link {
+.header-contacts .header-link {
   color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-
-.contact-nav .link:hover,
-.link:focus {
-  color: var(--accent);
 }
 
 /* Hero */
@@ -80,7 +75,7 @@ body {
   background-color: #2f303a;
 }
 
-.hero .title {
+.hero-title {
   color: var(--white-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -90,7 +85,7 @@ body {
   text-transform: uppercase;
 }
 
-.hero .button {
+.hero-button {
   color: var(--white-text-color);
   background-color: var(--accent);
   font-weight: 700;
@@ -98,25 +93,31 @@ body {
   line-height: 1.9;
   letter-spacing: 0.06em;
   font-family: inherit;
+  cursor: pointer;
+}
+
+.hero .button:hover,
+.button:focus {
+  background-color: #188ce8;
 }
 
 /* Section */
 
-.section h2 {
+.caption {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
 
-.section .title {
+.features-section .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
 
-.section .text {
+.features-section .text {
   color: var(--text-color);
   font-size: 14px;
   line-height: 1.7;
@@ -125,18 +126,18 @@ body {
 
 /* Work */
 
-.work {
+.work-section {
   background-color: #f5f4fa;
 }
 
-.work h3 {
+.work-section .title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
 
-.work .text {
+.work-section .text {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.18;
@@ -145,7 +146,7 @@ body {
 
 /* Content */
 
-.content h2 {
+.content-section .title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -153,14 +154,14 @@ body {
   letter-spacing: 0.06em;
 }
 
-.content .text {
+.content-section .text {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
 
-.button {
+.content-button {
   color: var(--primary-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
@@ -171,7 +172,7 @@ body {
   font-family: inherit;
 }
 
-.button:hover,
+.content-section .button:hover,
 .button:focus {
   color: var(--white-text-color);
   background-color: #2196f3;
@@ -183,7 +184,20 @@ body {
   background-color: #2f303a;
 }
 
-.footer .link {
+.footer-logo {
+  color: var(--accent);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.footer .logo-text {
+  color: var(--white-text-color);
+}
+
+.footer-link {
   color: var(--footer-text-color);
   font-size: 14px;
   line-height: 1.7;
@@ -201,11 +215,6 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-
-.footer .logo-text {
-  color: var(--white-text-color);
-}
-
-.footer address {
+.footer .address {
   font-style: normal;
 }
