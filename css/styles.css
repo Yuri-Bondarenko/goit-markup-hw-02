@@ -52,8 +52,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.header .link:hover,
-.link:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--accent);
 }
 
@@ -61,12 +61,17 @@ body {
   color: var(--accent);
 }
 
-.header-contacts .header-link {
+.contacts-link {
   color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent);
 }
 
 /* Hero */
@@ -96,8 +101,8 @@ body {
   cursor: pointer;
 }
 
-.hero .button:hover,
-.button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #188ce8;
 }
 
@@ -172,8 +177,8 @@ body {
   font-family: inherit;
 }
 
-.content-section .button:hover,
-.button:focus {
+.content-button:hover,
+.content-button:focus {
   color: var(--white-text-color);
   background-color: #2196f3;
 }
@@ -204,8 +209,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-.footer .link:hover,
-.link:focus {
+.footer-link:hover,
+.footer-link:focus {
   color: var(--accent);
 }
 
